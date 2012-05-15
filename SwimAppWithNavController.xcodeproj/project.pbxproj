@@ -15,6 +15,14 @@
 		EDB118511562D97C00CAE1B6 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118501562D97C00CAE1B6 /* SAAppDelegate.m */; };
 		EDB118541562D97C00CAE1B6 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118531562D97C00CAE1B6 /* SAViewController.m */; };
 		EDB118571562D97C00CAE1B6 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB118551562D97C00CAE1B6 /* SAViewController.xib */; };
+		EDB118601562DE4F00CAE1B6 /* SAWorkoutTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1185E1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.m */; };
+		EDB118611562DE4F00CAE1B6 /* SAWorkoutTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB1185F1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.xib */; };
+		EDB118641562E23900CAE1B6 /* SAWorkoutType.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118631562E23900CAE1B6 /* SAWorkoutType.m */; };
+		EDB118681562E50800CAE1B6 /* SAWorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118661562E50800CAE1B6 /* SAWorkoutsViewController.m */; };
+		EDB118691562E50800CAE1B6 /* SAWorkoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB118671562E50800CAE1B6 /* SAWorkoutsViewController.xib */; };
+		EDB1186C1562E7E800CAE1B6 /* SAWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1186B1562E7E800CAE1B6 /* SAWorkout.m */; };
+		EDB118701562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1186E1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.m */; };
+		EDB118711562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB1186F1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +30,28 @@
 		EDB118401562D97C00CAE1B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EDB118421562D97C00CAE1B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDB118441562D97C00CAE1B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EDB118481562D97C00CAE1B6 /* SwimAppWithNavController-Info.plist */ = {isa = PBXFileReference; path = "SwimAppWithNavController-Info.plist"; sourceTree = "<group>"; };
+		EDB118481562D97C00CAE1B6 /* SwimAppWithNavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwimAppWithNavController-Info.plist"; sourceTree = "<group>"; };
 		EDB1184A1562D97C00CAE1B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDB1184C1562D97C00CAE1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDB1184E1562D97C00CAE1B6 /* SwimAppWithNavController-Prefix.pch */ = {isa = PBXFileReference; path = "SwimAppWithNavController-Prefix.pch"; sourceTree = "<group>"; };
-		EDB1184F1562D97C00CAE1B6 /* SAAppDelegate.h */ = {isa = PBXFileReference; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		EDB1184E1562D97C00CAE1B6 /* SwimAppWithNavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimAppWithNavController-Prefix.pch"; sourceTree = "<group>"; };
+		EDB1184F1562D97C00CAE1B6 /* SAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAAppDelegate.h; sourceTree = "<group>"; };
 		EDB118501562D97C00CAE1B6 /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
-		EDB118521562D97C00CAE1B6 /* SAViewController.h */ = {isa = PBXFileReference; path = SAViewController.h; sourceTree = "<group>"; };
+		EDB118521562D97C00CAE1B6 /* SAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
 		EDB118531562D97C00CAE1B6 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
 		EDB118561562D97C00CAE1B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
+		EDB1185D1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWorkoutTypesViewController.h; sourceTree = "<group>"; };
+		EDB1185E1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWorkoutTypesViewController.m; sourceTree = "<group>"; };
+		EDB1185F1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAWorkoutTypesViewController.xib; sourceTree = "<group>"; };
+		EDB118621562E23900CAE1B6 /* SAWorkoutType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWorkoutType.h; sourceTree = "<group>"; };
+		EDB118631562E23900CAE1B6 /* SAWorkoutType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWorkoutType.m; sourceTree = "<group>"; };
+		EDB118651562E50800CAE1B6 /* SAWorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWorkoutsViewController.h; sourceTree = "<group>"; };
+		EDB118661562E50800CAE1B6 /* SAWorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWorkoutsViewController.m; sourceTree = "<group>"; };
+		EDB118671562E50800CAE1B6 /* SAWorkoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAWorkoutsViewController.xib; sourceTree = "<group>"; };
+		EDB1186A1562E7E800CAE1B6 /* SAWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWorkout.h; sourceTree = "<group>"; };
+		EDB1186B1562E7E800CAE1B6 /* SAWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWorkout.m; sourceTree = "<group>"; };
+		EDB1186D1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWorkoutDetailsViewController.h; sourceTree = "<group>"; };
+		EDB1186E1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWorkoutDetailsViewController.m; sourceTree = "<group>"; };
+		EDB1186F1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAWorkoutDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +71,19 @@
 		EDB118311562D97C00CAE1B6 = {
 			isa = PBXGroup;
 			children = (
+				EDB1186D1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.h */,
+				EDB1186E1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.m */,
+				EDB1186F1562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.xib */,
+				EDB1186A1562E7E800CAE1B6 /* SAWorkout.h */,
+				EDB1186B1562E7E800CAE1B6 /* SAWorkout.m */,
+				EDB118651562E50800CAE1B6 /* SAWorkoutsViewController.h */,
+				EDB118661562E50800CAE1B6 /* SAWorkoutsViewController.m */,
+				EDB118671562E50800CAE1B6 /* SAWorkoutsViewController.xib */,
+				EDB118621562E23900CAE1B6 /* SAWorkoutType.h */,
+				EDB118631562E23900CAE1B6 /* SAWorkoutType.m */,
+				EDB1185D1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.h */,
+				EDB1185E1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.m */,
+				EDB1185F1562DE4F00CAE1B6 /* SAWorkoutTypesViewController.xib */,
 				EDB118461562D97C00CAE1B6 /* SwimAppWithNavController */,
 				EDB1183F1562D97C00CAE1B6 /* Frameworks */,
 				EDB1183D1562D97C00CAE1B6 /* Products */,
@@ -151,6 +185,9 @@
 			files = (
 				EDB1184B1562D97C00CAE1B6 /* InfoPlist.strings in Resources */,
 				EDB118571562D97C00CAE1B6 /* SAViewController.xib in Resources */,
+				EDB118611562DE4F00CAE1B6 /* SAWorkoutTypesViewController.xib in Resources */,
+				EDB118691562E50800CAE1B6 /* SAWorkoutsViewController.xib in Resources */,
+				EDB118711562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +201,11 @@
 				EDB1184D1562D97C00CAE1B6 /* main.m in Sources */,
 				EDB118511562D97C00CAE1B6 /* SAAppDelegate.m in Sources */,
 				EDB118541562D97C00CAE1B6 /* SAViewController.m in Sources */,
+				EDB118601562DE4F00CAE1B6 /* SAWorkoutTypesViewController.m in Sources */,
+				EDB118641562E23900CAE1B6 /* SAWorkoutType.m in Sources */,
+				EDB118681562E50800CAE1B6 /* SAWorkoutsViewController.m in Sources */,
+				EDB1186C1562E7E800CAE1B6 /* SAWorkout.m in Sources */,
+				EDB118701562EEFB00CAE1B6 /* SAWorkoutDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
