@@ -7,6 +7,7 @@
 //
 
 #import "SAViewController.h"
+#import "SAWorkoutTypesViewController.h"
 
 @interface SAViewController ()
 
@@ -18,8 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Home";
+    
+    //we can hide the navbar for this "home" view
+    self.navigationController.navigationBarHidden = YES;
 }
 
+
+-(void) viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden = YES;
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -31,4 +40,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)pushWorkoutTypes:(id)sender {
+    //push our WorkoutTypes view controller on
+    SAWorkoutTypesViewController *workoutTypes = [[SAWorkoutTypesViewController alloc] initWithNibName:@"SAWorkoutTypesViewController" bundle:nil];
+    [self.navigationController pushViewController:workoutTypes animated:YES];
+}
 @end

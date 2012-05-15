@@ -16,4 +16,10 @@
 
 @property (strong, nonatomic) SAViewController *viewController;
 
+@property (strong, nonatomic) UINavigationController *navigationController;
+
+@property (strong, nonatomic) NSMutableArray *workoutTypes;
+
+@property (strong, nonatomic) NSMutableArray *freeWorkouts;
+
 @end

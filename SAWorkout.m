@@ -1,14 +1,16 @@
 //
-//  SAViewController.h
+//  SAWorkout.m
 //  SwimAppWithNavController
 //
 //  Created by David Margolies on 5/15/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SAWorkout.h"
 
-@interface SAViewController : UIViewController
+@implementation SAWorkout
 
-- (IBAction)pushWorkoutTypes:(id)sender;
+@synthesize workoutName;
+@synthesize workoutDescription;
+
 @end
