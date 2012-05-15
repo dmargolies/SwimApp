@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB118411562D97C00CAE1B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB118401562D97C00CAE1B6 /* UIKit.framework */; };
+		EDB118431562D97C00CAE1B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB118421562D97C00CAE1B6 /* Foundation.framework */; };
+		EDB118451562D97C00CAE1B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB118441562D97C00CAE1B6 /* CoreGraphics.framework */; };
+		EDB1184B1562D97C00CAE1B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB118491562D97C00CAE1B6 /* InfoPlist.strings */; };
+		EDB1184D1562D97C00CAE1B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1184C1562D97C00CAE1B6 /* main.m */; };
+		EDB118511562D97C00CAE1B6 /* SAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118501562D97C00CAE1B6 /* SAAppDelegate.m */; };
+		EDB118541562D97C00CAE1B6 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB118531562D97C00CAE1B6 /* SAViewController.m */; };
+		EDB118571562D97C00CAE1B6 /* SAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB118551562D97C00CAE1B6 /* SAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDB1183C1562D97C00CAE1B6 /* SwimAppWithNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimAppWithNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB118401562D97C00CAE1B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDB118421562D97C00CAE1B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDB118441562D97C00CAE1B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDB118481562D97C00CAE1B6 /* SwimAppWithNavController-Info.plist */ = {isa = PBXFileReference; path = "SwimAppWithNavController-Info.plist"; sourceTree = "<group>"; };
+		EDB1184A1562D97C00CAE1B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB1184C1562D97C00CAE1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB1184E1562D97C00CAE1B6 /* SwimAppWithNavController-Prefix.pch */ = {isa = PBXFileReference; path = "SwimAppWithNavController-Prefix.pch"; sourceTree = "<group>"; };
+		EDB1184F1562D97C00CAE1B6 /* SAAppDelegate.h */ = {isa = PBXFileReference; path = SAAppDelegate.h; sourceTree = "<group>"; };
+		EDB118501562D97C00CAE1B6 /* SAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAAppDelegate.m; sourceTree = "<group>"; };
+		EDB118521562D97C00CAE1B6 /* SAViewController.h */ = {isa = PBXFileReference; path = SAViewController.h; sourceTree = "<group>"; };
+		EDB118531562D97C00CAE1B6 /* SAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		EDB118561562D97C00CAE1B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SAViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB118391562D97C00CAE1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB118411562D97C00CAE1B6 /* UIKit.framework in Frameworks */,
+				EDB118431562D97C00CAE1B6 /* Foundation.framework in Frameworks */,
+				EDB118451562D97C00CAE1B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB118311562D97C00CAE1B6 = {
+			isa = PBXGroup;
+			children = (
+				EDB118461562D97C00CAE1B6 /* SwimAppWithNavController */,
+				EDB1183F1562D97C00CAE1B6 /* Frameworks */,
+				EDB1183D1562D97C00CAE1B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB1183D1562D97C00CAE1B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1183C1562D97C00CAE1B6 /* SwimAppWithNavController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB1183F1562D97C00CAE1B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB118401562D97C00CAE1B6 /* UIKit.framework */,
+				EDB118421562D97C00CAE1B6 /* Foundation.framework */,
+				EDB118441562D97C00CAE1B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB118461562D97C00CAE1B6 /* SwimAppWithNavController */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1184F1562D97C00CAE1B6 /* SAAppDelegate.h */,
+				EDB118501562D97C00CAE1B6 /* SAAppDelegate.m */,
+				EDB118521562D97C00CAE1B6 /* SAViewController.h */,
+				EDB118531562D97C00CAE1B6 /* SAViewController.m */,
+				EDB118551562D97C00CAE1B6 /* SAViewController.xib */,
+				EDB118471562D97C00CAE1B6 /* Supporting Files */,
+			);
+			path = SwimAppWithNavController;
+			sourceTree = "<group>";
+		};
+		EDB118471562D97C00CAE1B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB118481562D97C00CAE1B6 /* SwimAppWithNavController-Info.plist */,
+				EDB118491562D97C00CAE1B6 /* InfoPlist.strings */,
+				EDB1184C1562D97C00CAE1B6 /* main.m */,
+				EDB1184E1562D97C00CAE1B6 /* SwimAppWithNavController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB1183B1562D97C00CAE1B6 /* SwimAppWithNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB1185A1562D97C00CAE1B6 /* Build configuration list for PBXNativeTarget "SwimAppWithNavController" */;
+			buildPhases = (
+				EDB118381562D97C00CAE1B6 /* Sources */,
+				EDB118391562D97C00CAE1B6 /* Frameworks */,
+				EDB1183A1562D97C00CAE1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimAppWithNavController;
+			productName = SwimAppWithNavController;
+			productReference = EDB1183C1562D97C00CAE1B6 /* SwimAppWithNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB118331562D97C00CAE1B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EDB118361562D97C00CAE1B6 /* Build configuration list for PBXProject "SwimAppWithNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDB118311562D97C00CAE1B6;
+			productRefGroup = EDB1183D1562D97C00CAE1B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB1183B1562D97C00CAE1B6 /* SwimAppWithNavController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB1183A1562D97C00CAE1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB1184B1562D97C00CAE1B6 /* InfoPlist.strings in Resources */,
+				EDB118571562D97C00CAE1B6 /* SAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB118381562D97C00CAE1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB1184D1562D97C00CAE1B6 /* main.m in Sources */,
+				EDB118511562D97C00CAE1B6 /* SAAppDelegate.m in Sources */,
+				EDB118541562D97C00CAE1B6 /* SAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB118491562D97C00CAE1B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB1184A1562D97C00CAE1B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDB118551562D97C00CAE1B6 /* SAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB118561562D97C00CAE1B6 /* en */,
+			);
+			name = SAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB118581562D97C00CAE1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDB118591562D97C00CAE1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB1185B1562D97C00CAE1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwimAppWithNavController/SwimAppWithNavController-Prefix.pch";
+				INFOPLIST_FILE = "SwimAppWithNavController/SwimAppWithNavController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDB1185C1562D97C00CAE1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwimAppWithNavController/SwimAppWithNavController-Prefix.pch";
+				INFOPLIST_FILE = "SwimAppWithNavController/SwimAppWithNavController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB118361562D97C00CAE1B6 /* Build configuration list for PBXProject "SwimAppWithNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB118581562D97C00CAE1B6 /* Debug */,
+				EDB118591562D97C00CAE1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB1185A1562D97C00CAE1B6 /* Build configuration list for PBXNativeTarget "SwimAppWithNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB1185B1562D97C00CAE1B6 /* Debug */,
+				EDB1185C1562D97C00CAE1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB118331562D97C00CAE1B6 /* Project object */;
+}
